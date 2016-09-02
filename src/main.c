@@ -238,7 +238,7 @@ static void query (void)
                           N_("Li_quid rescale..."), "RGB*, GRAY*",
                           GIMP_PLUGIN, args_num, 0, args, NULL);
 
-  gimp_plugin_menu_register (PLUG_IN_NAME, "<Image>/Layer/");
+  gimp_plugin_menu_register (PLUG_IN_NAME, "<Image>/Filters/Various additional");
 }
 
 
