@@ -235,10 +235,10 @@ static void query (void)
                           "Resize a layer preserving (or removing) content",
                           "Carlo Baldassi <carlobaldassi@gmail.com>",
                           "Carlo Baldassi <carlobaldassi@gmail.com>", "2010",
-                          N_("Li_quid rescale..."), "RGB*, GRAY*",
+                          N_("Li_quid rescale... (8-bit)"), "RGB*, GRAY*",
                           GIMP_PLUGIN, args_num, 0, args, NULL);
 
-  gimp_plugin_menu_register (PLUG_IN_NAME, "<Image>/Filters/Various additional");
+  gimp_plugin_menu_register (PLUG_IN_NAME, "<Image>/Filters/Community extensions");
 }
 
 
